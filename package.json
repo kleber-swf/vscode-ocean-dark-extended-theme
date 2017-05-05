@@ -2,7 +2,7 @@
     "name": "ocean-dark-extended",
     "displayName": "Base16 Ocean Dark Extended Theme",
     "description": "Base16 Ocean Dark Theme extended to Visual Studio Code workbench",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "repository": {
         "type": "git",
         "url": "https://github.com/kleber-swf/vscode-ocean-dark-extended-theme"
@@ -33,7 +33,7 @@
     "homepage": "https://github.com/kleber-swf/vscode-ocean-dark-extended-theme",
     "icon": "images/icon.png",
     "galleryBanner": {
-        "color": "",
+        "color": "#2b303b",
         "theme": "dark"
     },
     "contributes": {
