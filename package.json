@@ -44,5 +44,8 @@
                 "path": "./themes/Ocean Dark Extended.json"
             }
         ]
+    },
+    "scripts": {
+        "build": "vsce package"
     }
 }
