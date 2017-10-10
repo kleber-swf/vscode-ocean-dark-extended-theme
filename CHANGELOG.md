@@ -1,11 +1,16 @@
 # CHANGELOG #
 
-## 1.2.0 ##
-* *added*: colors for editor gutter and ruler
-* *changed*: debug panel background for better visibility
-* *changed*: notification background for better visibility
-* *fixed*: terminal error background
-* *fixed*: some other overall minor fixes
+## [1.2.0] - 2017-10-10
+### Added
+- colors for editor gutter and ruler
 
-## 1.0.0 ##
-Initial Version
+### Changed
+- debug panel background for better visibility
+- notification background for better visibility
+
+### Fixed
+* terminal error background
+* some other overall minor fixes
+
+## [1.0.0] - 2017-05-05
+- Initial Version
