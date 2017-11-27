@@ -126,11 +126,11 @@
 		"notification.background": "#2f4f6c",
 		"terminal.background": "#252932",
 		"terminal.foreground": "#a7adba",
-		"debugExceptionWidget.border": "#bf616a",
-		"debugExceptionWidget.background": "#323b4f",
-		"debugToolBar.background": "#323843",
 		"statusBar.debuggingBackground": "#923a1b",
 		"statusBar.debuggingForeground": "#dfe1e8",
+		"debugToolBar.background": "#323843",
+		"debugExceptionWidget.border": "#bf616a",
+		"debugExceptionWidget.background": "#323b4f",
 		"editorGutter.modifiedBackground": "#518cc7",
 		"editorGutter.addedBackground": "#a3be8c",
 		"editorGutter.deletedBackground": "#bf616a",
@@ -155,7 +155,12 @@
 		"terminal.ansiBrightBlue": "#252932",
 		"terminal.ansiBrightMagenta": "#b48ead",
 		"terminal.ansiBrightCyan": "#96b5b4",
-		"terminal.ansiBrightWhite": "#eff1f5"
+		"terminal.ansiBrightWhite": "#eff1f5",
+		"gitDecoration.modifiedResourceForeground": "#ebcb8bda",
+		"gitDecoration.deletedResourceForeground": "#d08770",
+		"gitDecoration.untrackedResourceForeground": "#a3be8c",
+		"gitDecoration.ignoredResourceForeground": "#65737e",
+		"gitDecoration.conflictingResourceForeground": "#bf616a"
 	},
 	"tokenColors": [
 		{
