@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 ### Changed
-* new git status colors to file explorer
+* new git status colors to file explorer conflict
 
 ## [1.3.0] - 2017-11-27
 ### Changed
