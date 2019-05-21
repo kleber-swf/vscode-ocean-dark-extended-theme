@@ -2,6 +2,8 @@
 
 ![everything with the same look and feel](https://raw.githubusercontent.com/kleber-swf/vscode-ocean-dark-extended-theme/master/images/screenshot.png)
 
+[VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=kleber-swf.ocean-dark-extended)
+
 Use the Base16 Ocean Dark theme that you already love not just in the editor, but inside the Visual Studio Code entirely.
 
 Feel the vibes of the ocean dark theme inside every file, terminal, file list, popup and error.
