@@ -1,6 +1,7 @@
 {
 	"$schema": "vscode://schemas/color-theme",
 	"type": "dark",
+	"semanticHighlighting": true,
 	"colors": {
 		"activityBar.background": "#1d2027",
 		"activityBar.border": "#1d2027",
@@ -314,22 +315,30 @@
 			}
 		},
 		{
+			"name": "Control flow",
+			"scope": "keyword.control",
+			"settings": {
+				"foreground": "#b48ead",
+				"fontStyle": "bold"
+			}
+		},
+		{
 			"name": "Variables",
-			"scope": "variable",
+			"scope": "variable, entity.name.variable",
 			"settings": {
 				"foreground": "#bf616a"
 			}
 		},
 		{
 			"name": "Functions",
-			"scope": "entity.name.function, meta.require, support.function.any-method",
+			"scope": "entity.name.function, meta.require, support.function.any-method, variable.other.property, variable.other.object.property",
 			"settings": {
 				"foreground": "#8fa1b3"
 			}
 		},
 		{
 			"name": "Classes",
-			"scope": "support.class, entity.name.class, entity.name.type.class",
+			"scope": "support.class, entity.name.class, entity.name.type.class, storage.type, variable.other.object",
 			"settings": {
 				"foreground": "#ebcb8b"
 			}
@@ -392,7 +401,14 @@
 		},
 		{
 			"name": "Constants",
-			"scope": "constant",
+			"scope": "constant, variable.other.constant",
+			"settings": {
+				"foreground": "#d08770"
+			}
+		},
+		{
+			"name": "Enum",
+			"scope": "variable.other.enummember",
 			"settings": {
 				"foreground": "#d08770"
 			}
@@ -550,7 +566,7 @@
 		},
 		{
 			"name": "Embedded",
-			"scope": "punctuation.section.embedded, variable.interpolation",
+			"scope": "punctuation.section.embedded, variable.interpolation, punctuation.definition.interpolation",
 			"settings": {
 				"foreground": "#ab7967"
 			}
